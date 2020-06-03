@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Paris</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width	">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<img src="images/logo.jpg" alt="">
+					</a>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li>
+								<a href="#Eiffel" class="header__link">Turnul Eiffel</a>
+							</li>
+							<li>
+								<a href="#Notre" class="header__link">Notre Damme</a>
+							</li>
+							<li>
+								<a href="#Louvre" class="header__link">Louvre</a>
+							</li>
+							<li>
+								<a href="#Arc" class="header__link">L`arc de Triumphe</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="section__button">
+			<div class="content__button">
+				<a href="#Eiffel" class="button">
+					<span class="button__text">
+						<span>Go to Paris</span>
+					</span>
+				</a>
+			</div>
+		</section>
+		<section class="section_edificiu ed1" id="Eiffel">
+			<div class="edificiu__body">
+				<div class="body__leftside ">
+					<div class="body__title">
+						Titlu
+					</div>
+					<div class="body__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam laborum quaerat iure, officia ullam tenetur magni accusamus nemo reprehenderit dignissimos qui quo expedita ipsum alias ut, placeat quis. Nobis quod iure, in enim optio? Ea temporibus ipsa quasi 
+					</div>
+				</div>
+				<div class="body__rightside">
+					<div class="box">
+						<div class="card">
+					        <div class="imgBx">
+					            <img src="images/tour__eiffel.jpg" alt="images">
+					        </div>
+					        <div class="details">
+					            <h2>Faimosul<br><span>Tour Eifel</span></h2>
+					        </div>
+				      </div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section class="section_edificiu ed2" id="Notre">
+			<div class="edificiu__body">
+				<div class="body__leftside ">
+					<div class="body__title">
+						Titlu
+					</div>
+					<div class="body__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam laborum quaerat iure, officia ullam tenetur magni accusamus nemo reprehenderit dignissimos qui quo expedita ipsum alias ut, placeat quis. Nobis quod iure, in enim optio? Ea temporibus ipsa quasi 
+					</div>
+				</div>
+				<div class="body__rightside">
+					<div class="box">
+						<div class="card">
+					        <div class="imgBx">
+					            <img src="images/notre_dame.jpg" alt="images">
+					        </div>
+					        <div class="details">
+					            <h2>Misterieux<br><span>Notre Dame</span></h2>
+					        </div>
+				      </div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section class="section_edificiu ed3" id="Louvre">
+			<div class="edificiu__body">
+				<div class="body__leftside ">
+					<div class="body__title">
+						Titlu
+					</div>
+					<div class="body__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam laborum quaerat iure, officia ullam tenetur magni accusamus nemo reprehenderit dignissimos qui quo expedita ipsum alias ut, placeat quis. Nobis quod iure, in enim optio? Ea temporibus ipsa quasi 
+					</div>
+				</div>
+				<div class="body__rightside">
+					<div class="box">
+						<div class="card">
+					        <div class="imgBx">
+					            <img src="images/louvre.jpg" alt="images">
+					        </div>
+					        <div class="details">
+					            <h2>Grand<br><span>Louvre</span></h2>
+					        </div>
+				      </div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section class="section_edificiu ed4" id="Arc">
+			<div class="edificiu__body">
+				<div class="body__leftside ">
+					<div class="body__title">
+						Titlu
+					</div>
+					<div class="body__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam laborum quaerat iure, officia ullam tenetur magni accusamus nemo reprehenderit dignissimos qui quo expedita ipsum alias ut, placeat quis. Nobis quod iure, in enim optio? Ea temporibus ipsa quasi 
+					</div>
+				</div>
+				<div class="body__rightside">
+					<div class="box">
+						<div class="card">
+					        <div class="imgBx">
+					            <img src="images/arc.jpg" alt="images">
+					        </div>
+					        <div class="details">
+					            <h2>Paix<br><span>L`arc de Triomphe</span></h2>
+					        </div>
+				      </div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+	</div>
+	<script>
+		$(document).ready(function(){
+		  $(".header__burger").click(function(){
+		    $(".header__burger").toggleClass("active");
+		    $(".header__menu").toggleClass("active");
+		     $("body").toggleClass("lock");
+		  });
+		});
+	</script>
+</body>
+</html>
